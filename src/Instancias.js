@@ -97,7 +97,7 @@ class Instancias extends Component {
             <div>
             {this.state.instanciasAWS.map((ist, idx )=> {        
                 return <CInstancias nome={ist.InstanceId} status={ist.InstanceState.Name} 
-                                    key={idst.InstanceIdx}  /> 
+                                    key={ist.InstanceIdx}  /> 
             })}  </div> :  null }   
         </div>
                 <input type="submit" 
